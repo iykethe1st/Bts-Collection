@@ -1,4 +1,4 @@
-export const NFT_CONTRACT_ADDRESS = "0x8a4b32cCEbE1b0485EdAA3B426579F11FDDA3daC";
+export const NFT_CONTRACT_ADDRESS = "0x4b1e08e198F2eecD4198A03BB491EdD8145E1756";
 
 export const abi = [
   {
@@ -409,13 +409,7 @@ export const abi = [
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_presaleTime",
-        "type": "uint256"
-      }
-    ],
+    "inputs": [],
     "name": "startPresale",
     "outputs": [],
     "stateMutability": "nonpayable",

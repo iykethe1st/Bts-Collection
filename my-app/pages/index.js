@@ -45,7 +45,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully minted a BtsNft!");
     } catch (err) {
       console.error(err);
     }
@@ -75,7 +75,7 @@ export default function Home() {
       // wait for the transaction to get mined
       await tx.wait();
       setLoading(false);
-      window.alert("You successfully minted a Crypto Dev!");
+      window.alert("You successfully minted a BtsNft!");
     } catch (err) {
       console.error(err);
     }
@@ -110,7 +110,7 @@ export default function Home() {
         signer
       );
       // call the startPresale from the contract
-      const tx = await whitelistContract.startPresale(2591998);
+      const tx = await whitelistContract.startPresale();
       setLoading(true);
       // wait for the transaction to get mined
       await tx.wait();
