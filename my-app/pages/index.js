@@ -360,15 +360,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>Bts Nfts</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Bts Nfts!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            Its a higly spiritual NFT collection for Zen developers in Crypto.
+            <p>Connect using Rinkeby, Mint and be blessed.</p>
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
@@ -381,7 +382,7 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+        Made with &#10084; by @iykethe1st
       </footer>
     </div>
   );
